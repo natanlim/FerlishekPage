@@ -1,0 +1,313 @@
+/* Corpo */
+/* Color Bases (red: #9E1812, Orange: #E27516, yellow: #DB8F13, lodo:  9F830D, escuro: #151501)*/
+body {
+	
+	font-family: Nunito, sans-serif;
+	
+}
+
+h1, h2 {
+	font-family: Asap, sans-serif;
+	
+	
+}
+
+h3, h4 {
+	font-family: Redressed, sans-serif;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #151501;
+
+}
+nav img {
+
+	display: flex;
+	width: 20%;
+	float: left;
+	padding: 10px 10px;
+	min-width: 100px;
+	
+}
+nav a {
+	display: flex;
+	
+	
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	width: 100%;
+}
+nav ul li {
+	padding: 10px;
+	text-align: center;
+	position: relative;
+	width: 100%;
+}
+
+nav ul li a {
+	display: inline-block;
+	padding: 30px 10;
+	width: 100%;
+	text-decoration: none;
+	color: #E27516 ;
+}
+
+nav ul li ul {
+	position: absolute;
+	flex-direction: row;
+	display: none;
+	color: #DB8F13;
+}
+
+nav ul li:hover ul, nav ul li.over ul{
+	display: flex;
+	flex-direction: row;
+	color: #DB8F13;
+
+}
+
+nav ul li ul li {
+	position: relative;
+	flex-direction: row;
+	color: #DB8F13 ;
+	display: block;
+}
+
+nav ul li ul li a{
+	position: relative;
+	flex-direction: row;
+	color: #DB8F13 ;
+	display: block;
+}
+/*Cabeçalho */
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center ;
+	background-color: #DB8F13;
+	text-align: center;
+	padding: 20px;
+
+}
+ header h1 {
+ 	color: #151501;
+
+ }
+
+ header p{
+ 	margin-bottom: 2em;
+ }
+
+header a {
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-shadow: #000 2px 1px 1px;
+	text-decoration: none;
+	color: #E27516 ;
+	font-size: 20px;
+	
+}
+ 
+#sobreF {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	background-color: #E27516 ;
+}
+
+
+
+#sobreF div img {
+	display: flex;
+	padding: 10px 0;
+	width: 25% ;
+	max-width: 200px;
+	height: 25%;
+	float: left;
+	transform: scale(-1);
+	transform: rotateY(180deg);
+}
+#sobreF div p {
+	display: flex;
+	padding: 5px 20px;
+	flex-direction: row;
+	align-content: space-around;
+	text-align: justify;
+}
+
+#sobreF img{
+	display: flex;
+	width: 300px;
+	height: 230px;
+	flex-direction: row;
+	align-items: flex-start;
+	float: left;
+	padding: 10px;
+	object-fit: cover;
+
+}
+
+#agenda {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px 10px 20px 20px;
+	background-color: #151501; 
+
+}
+#agenda h3 {
+	color: #E27516;
+
+}
+#agenda  h2 {
+	color: #DB8F13;
+	text-shadow: #000 2px 2px 2px;
+}
+
+
+#discografia {
+
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	list-style-type: none;
+	align-items: center ;
+	background-color: #DB8F13;
+	text-align: center;
+	padding: 0px;
+}
+
+#discografia a{
+	
+	
+	text-align: center;
+
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-shadow: #000 2px 1px 1px;
+	text-decoration: none;
+	color: #E27516 ;
+	font-size: 20px;
+	
+}
+
+
+
+
+#midia {
+
+	background-color:  #E27516 ;
+	display: flex;
+	flex-direction: column;
+	align-items: center ;
+}
+
+#fotos {
+	flex-direction: column;
+}
+
+#fotos img{
+	display: flex;
+	width: 300px;
+	height: 230px;
+	flex-direction: row;
+	align-items: center;
+	
+	padding: 10px;
+	object-fit: cover;
+
+}
+
+#fotos h4 {
+	
+	flex-direction: column;
+	align-items: center;
+	display: inline-block;
+}
+
+
+#sets {
+	width: 100%;
+	background-color: #9E1812;
+}
+
+#sets iframe {
+	display: flex;
+	padding: 10px;
+	flex-direction: column;
+	align-items: center;
+}
+
+#videos{
+	align-items: center;
+	
+	
+}
+#videos iframe {
+
+	width: 100%;
+	height: 300px;
+	max-width: 400px;
+	padding: 10x 10px;
+}
+#store {
+	background-color:  #DB8F13 ;
+	display: flex;
+	flex-direction: column;
+	align-items: center ;
+}
+
+#tutoriais {
+	background-color:  #151501 ;
+	display: flex;
+	flex-direction: column;
+	align-items: center ;	
+}
+
+#tutoriais  iframe {
+	display: flex;
+	width: 100%;
+	height: 300px;
+	max-width: 400px;
+	padding: 10x 10px;
+}
+
+
+#contato {
+	background-color:  #9E1812 ;
+	display: flex;
+	flex-direction: column;
+	align-items: center ;
+}
+
+footer {
+	padding: 10px;
+	background-color: #E27516;
+	flex-direction: row;
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+
+}
+
+footer p{
+	text-align: center;
+}
